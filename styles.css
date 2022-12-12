@@ -1,5 +1,12 @@
-
+navbar {
+  margin: 25px;
+  background: rgb(94, 50, 177);
+  padding: 25px;
+  font-family: 'Roboto', sans-serif; /* font to roboto*/
+  display: inline;
+}
   
+
   body {
     display: flex;
     flex-direction: column;
@@ -44,34 +51,4 @@
     }
   }
   
-  nav {
-    margin: 25px;
-    background: tomato;
-    padding: 25px;
-  
-    .menuItems {
-      list-style: none;
-      display:inline;
-      text-align: center;
-  
-      li {
-        margin: 50px;
-        display: inline;
-  
-        a {
-          text-decoration: none;
-          color: #8f8f8f;
-          font-size: 24px;
-          font-weight: 400;
-          transition: all 0.5s ease-in-out;
-          position: relative;
-          text-transform: uppercase;
-  
-          
-  
-          
-        }
-      }
-    }
-  }
   
